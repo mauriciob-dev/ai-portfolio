@@ -110,7 +110,7 @@ def ask_without_rag(query: str) -> str:
     return response.choices[0].message.content
     
 if __name__ == "__main__":
-    query = "¿En qué siglo se popularizó el café en la península arábiga?"
+    query = "¿En qué zonas se cultiva el cáñamo según el documento?"
 
     print("=== CON RAG ===")
     print(ask_with_rag(query))
