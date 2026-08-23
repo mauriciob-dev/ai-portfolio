@@ -13,8 +13,8 @@ Cada proyecto está diseñado para demostrar no solo que "funciona", sino **por 
 | # | Proyecto | Descripción | Stack | Estado |
 |---|---|---|---|---|
 | 01 | [Chatbot con Function Calling](./01-call-api) | Chatbot conversacional que ejecuta herramientas reales (cálculo, hora) vía function calling, con memoria de contexto y manejo de errores en tres capas | Python, OpenAI API | ✅ Completo |
-| 02 | RAG sobre documentos propios | Sistema de respuesta basado en recuperación semántica sobre PDFs/notas personales, usando embeddings y base vectorial | Python, OpenAI API, ChromaDB | 🔜 En progreso |
-| 03 | Agente con herramientas y memoria | Agente que planifica múltiples pasos, usa varias herramientas y mantiene estado entre turnos | Python, LangGraph | ⏳ Pendiente |
+| 02 | RAG sobre documentos propios | Sistema de respuesta basado en recuperación semántica sobre PDFs/notas personales, usando embeddings y base vectorial | Python, OpenAI API, ChromaDB | ✅ Completo |
+| 03 | Agente con herramientas y memoria | Agente que planifica múltiples pasos, usa varias herramientas y mantiene estado entre turnos | Python, LangGraph | 🔜 En progreso |
 | 04 | Fine-tuning / LoRA | Ajuste de un modelo open source para una tarea específica de clasificación o dominio | Python, Hugging Face, LoRA | ⏳ Pendiente |
 | 05 | Proyecto end-to-end desplegado | Uno de los anteriores llevado a producción con tests, CI/CD y despliegue real | Docker, GitHub Actions, Render/Fly.io | ⏳ Pendiente |
 
