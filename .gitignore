@@ -23,4 +23,4 @@ Thumbs.db
 # Distribución / build
 *.egg-info/
 dist/
-build/
+build/notes.txt
